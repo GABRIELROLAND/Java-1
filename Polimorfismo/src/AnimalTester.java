@@ -22,18 +22,30 @@ public class AnimalTester {
 		a1.emitirSom();
 		a1.locomover();
 		System.out.println("=-=-=-=-=-=-=-=-=-=--=");
+		m1.setIdade(20);
+		m1.setMembros(4);
+		m1.setPeso(64);
 		m1.setCorPelo("verde");
+		
 		m1.alimentar();
 		m1.emitirSom();
 		m1.locomover();
 		System.out.println("=-=-=-=-=-=-=-=-=-=--=");
 		p1.setCorEscama("Azul");
+		p1.setMembros(3);
+		p1.setIdade(2);
+		p1.setPeso(1);
+		
 		p1.soltarBolha();
 		p1.alimentar();
 		p1.emitirSom();
 		p1.locomover();
 		System.out.println("=-=-=-=-=-=-=-=-=-=--=");
+		r1.setIdade(4);
+		r1.setMembros(5);
+		r1.setPeso(10);
 		r1.setCorEscama("Marrom");
+		
 		r1.alimentar();
 		r1.emitirSom();
 		r1.locomover();
