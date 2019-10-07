@@ -1,8 +1,9 @@
 
 public abstract class Animal {
-	private int peso;
-	private int idade;
-	private int membros;
+	protect int peso;
+	protect int idade;
+	protect int membros;
+	
 	public int getPeso() {
 		return peso;
 	}
